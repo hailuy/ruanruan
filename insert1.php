@@ -1,0 +1,69 @@
+<?php
+
+include("config.php"); //引入数据库连接文件
+
+$sql = "select * from staff"; //搜索数据表content
+
+$result = mysql_query($sql);
+
+?>
+
+<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<body style="background-image: url(news-bg.png)">
+
+<table width="678" align="center">
+<!--
+<tr>
+
+<td colspan="2"><h1>insert</h1></td>
+
+</tr>
+
+<tr>
+
+<td width="700"><a href="index.php">main page</a> | <a href="insert1.php">insert</a> | <a href="delete1.php">delete</a> | <a href="update1.php">update</a> | <a href="select1.php">select</a></td>
+
+</tr>
+-->
+</table>
+<table align="center" width="678">
+<tr>
+<td>
+<form name="form5" method="post" action="post1.php">
+
+<table>
+
+<tr>
+<td>mno</td>
+<td><input name="mno" type="text" id="mno"></td>
+</tr>
+<tr>
+<td><br/></td>
+</tr>
+
+<tr>
+<td>sno</td>
+<td><input name="sno" type="text" id="sno"></td>
+</tr>
+<tr>
+<td><br/></td>
+</tr>
+
+</table>
+
+<p>
+<input type="submit" name="button" id="button" value="submit">
+<input type="reset" name="button2" id="button2" value="reset">
+</p>
+
+</form>
+</td>
+</tr>
+</table>
+
+</body>
+
+</html>

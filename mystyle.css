@@ -1,0 +1,203 @@
+body{
+	background-image: url(bg2.jpg);
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.scrolltable{
+
+    background-image:url(top.jpg);
+background-color:black;
+}
+.scrolltable:hover{
+
+	background-image:url(top2.jpg);
+}
+#iframes{
+	display: none;
+}
+div.joinus-1{
+	display: none;
+}
+div.joinus-2{
+	display: none;
+}
+div.joinus-3{
+	display: none;
+}
+div.joinus-4{
+	display: none;
+}
+.menubar{
+	width:100%;
+	height:80px;
+	z-index: 1;
+	top:0px;
+	background-color:lightblue;
+	position: fixed;
+	font-family:Helvetica;
+}
+.navtable{
+	width:100%;
+	height:80px;
+	right:5%;
+	border-collapse:collapse;
+	letter-spacing: 2px;
+}
+.navtd:hover{
+	background-color:grey;
+}
+.navtd2:hover{
+	background-color:red;
+}
+.container{
+	margin:8% 10% 10% 10%;
+	
+	background-color:#ffffcc;
+}
+.title{
+	float:left;
+	width:85%;
+	height:250px;
+	
+}
+.aboutus{
+	float:right;
+	width:100%;
+	height:500px;
+}
+.joinus{
+	float:right;
+	width:100%;
+	
+}
+.logo{
+	float:right;
+	width:15%;
+	height:10%;
+}
+#admin{
+	font-family:Helvetica;
+	text-align:center;
+}
+.aboutus-iminai{
+	float:right;
+	width:50%;
+	height:110px;
+	text-align:center;
+	font-family:Helvetica;
+	background-image: url(iminai-bg.jpg);
+	border:thin solid black;
+	margin-top:2%;
+	margin-right:3%;
+}
+.aboutus-news{
+	float:right;
+	width:50%;
+	height:190px;
+	color:#003366;
+	background-image: url(news-bg.png);
+	margin-top:2%;
+	margin-right:3%;
+	border:thin solid black;
+}
+.aboutus-ad{
+	float:left;
+	width:43%;
+	height:120px;
+	margin-left:3%;
+}
+.title-title{ 
+	font-size:50px;
+	color:#003366;
+	font-family: Impact, Charcoal, sans-serif;
+	line-height: 0px;
+	text-indent:2em;
+}
+.title-sub{
+	line-height: 0px;
+	color:#003366;
+	text-indent:10em;
+}
+.title-slogan{
+	font: italic bold 20px Georgia, serif;
+	color:#92020B;
+	line-height: 0px;
+	text-indent:5em
+}
+.title-fb{
+	line-height: 0px;
+	line-height: 0px;
+	color:#003366;
+}
+.aboutus-title{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:40px;
+	color:#92020B;
+	margin-left:10%;
+}
+.joinus-title{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:40px;
+	color:#92020B;
+	margin-left:10%;
+}
+.joinus-tbtitle{
+	font-family:Arial;
+	font-weight:900;
+	font-size:20px;
+}
+.joinus-td{
+	width:19%;
+	text-align:center;
+}
+.btns{
+	margin:auto;
+}
+.btn{
+	height:50px;
+	width:90px;
+}
+.table{
+	background-color:#cccccc;
+	width:80%;
+	border-collapse:collapse;
+height:40px;
+}
+.news-title{
+	line-height: 15px;
+	
+}
+.table-title{
+	background-color:#66ccff;
+	font-family:Arial;
+	font-size:40px;
+	font-weight:900;
+	width:200px;
+}
+#f1{
+	height:100%;
+	width:100%;
+}
+#f2{
+	height:100%;
+	width:100%;
+}
+#f3{
+	height:100%;
+	width:100%;
+}
+#f4{
+	height:100%;
+	width:100%;
+}
+#tables{
+	display: none;
+}
+#scrolltop{
+	width:133px;
+	height:144px;
+	position: fixed;
+    bottom: 0px;
+    right: 0px;
+	z-index: 1;
+}
+		
